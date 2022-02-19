@@ -3,7 +3,7 @@ from sklearn.datasets import fetch_openml
 import numpy as np
 from sklearn.linear_model import SGDClassifier
 from sklearn.metrics import accuracy_score
-from sklearn.externals import joblib
+import joblib
 
 np.random.seed(42)
 #mnist = fetch_mldata("MNIST original")

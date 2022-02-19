@@ -1,5 +1,5 @@
 import numpy as np
-from sklearn.externals import joblib
+import joblib
 from PIL import Image
 from flask import Flask, jsonify, request
 
